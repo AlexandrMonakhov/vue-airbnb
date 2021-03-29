@@ -1,0 +1,50 @@
+.experiences {
+  
+  &__header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  &-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-card {
+    max-width: 229px;
+    
+    &__preview {
+      width: 100%;
+    }
+
+    &-info {
+      font-size: 15px;
+      line-height: 18px;
+      color: #383838;
+      margin: 8px 0;
+
+      &__price {
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 5px;
+      }
+    }
+
+    &-rating {
+
+      &__image {
+        &:not(:last-child) {
+          margin-right: 4px;
+        }
+      }
+
+      &__reviews {
+        margin-left: 8px;
+      }
+
+    }
+  }
+
+}

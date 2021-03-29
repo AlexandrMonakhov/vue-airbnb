@@ -1,0 +1,65 @@
+.homes {
+
+  &__header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  &-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-card {
+    max-width: 310px;
+
+    &__preview {
+      width: 100%;
+    }
+
+    &-info {
+      font-size: 18px;
+      line-height: 21px;
+      color: #383838;
+      margin: 8px 0 2px 0;
+      display: flex;
+      align-items: center;
+
+      &__price {
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 5px;
+      }
+
+      &__title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+    }
+
+    &-house {
+      font-size: 15px;
+      line-height: 18px;
+      margin-bottom: 7px;
+    }
+
+    &-rating {
+
+      &__image {
+        &:not(:last-child) {
+          margin-right: 4px;
+        }
+      }
+
+      &__reviews {
+        margin-left: 8px;
+      }
+
+    }
+
+  }
+}

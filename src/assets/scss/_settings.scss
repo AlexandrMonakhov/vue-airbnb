@@ -1,0 +1,41 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Circular Std', sans-serif;
+}
+
+.container {
+  max-width: 966px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+input {
+  font-family: 'Circular Std', sans-serif;
+  width: 100%;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 34px;
+  color: #383838;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+.see {
+  font-size: 20px;
+  line-height: 32px;
+  color: #383838;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, button, input:focus, button:focus {
+  outline: none;
+}

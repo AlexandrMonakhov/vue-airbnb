@@ -1,0 +1,46 @@
+.restaurants {
+
+  &__header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  &-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-card {
+    max-width: 229px;
+
+    &__preview {
+      width: 100%;
+    }
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      &__sub-title {
+        font-size: 15px;
+        line-height: 18px;
+        margin: 12px 0 2px 0;
+      }
+
+      &__title {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        margin-bottom: 4px;
+      }
+
+      &__price {
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+    }
+  }
+
+}
